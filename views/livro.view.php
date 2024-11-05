@@ -2,7 +2,7 @@
   <div class="flex">
     <div class="w-1/3">imagem</div>
     <div>
-      <a href="/bookwise/livro.php?id=<?php echo $livro['id']; ?>" class="font-semibold"><?php echo $livro['titulo']; ?></a>
+      <a href="/bookwise/livro?id=<?php echo $livro['id']; ?>" class="font-semibold"><?php echo $livro['titulo']; ?></a>
       <div class="text-xs italic"><?php echo $livro['autor']; ?></div>
       <div class="text-xs italic">Avaliacoes</div>
     </div>
